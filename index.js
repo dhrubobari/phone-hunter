@@ -20,8 +20,10 @@ phones.forEach(phone => {
     <div class="card h-100">
             <img src="${phone.image}" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">${phone.brand}</h5>
+              <p class="card-text">${phone.phone_name}</p>
+              <p class="card-text">${phone.slug}</p>
+              <a href="#" class="btn btn-primary">Details</a>
             </div>
           </div>
     `;
